@@ -8,31 +8,41 @@
     <div>
       <header>
         <h1>Experience VR</h1>
-        <p>A simple blog about virtual reality experiences</p>
+        <p>A <em>simple</em> blog about virtual reality experiences</p>
 
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 
       </header>
-
-      <p>Virtual Reality is becoming well known as a form of entertainment,
-      but it's also finding its way into fields like education, industrial design, healthcare and so much more!</p>
-      <a href="https://teamtreehouse.com/vr" target="_blank">Start Your VR Journey</a>
+      <div>
+        <img src="img/featured.jpg" alt="Virtual reality user">
+        <p><strong>Virtual Reality</strong> is becoming well known as a form of entertainment,
+          but it's also finding its way into fields like education, industrial design, healthcare and so much more!</p>
+          <a href="https://teamtreehouse.com/vr" target="_blank">Start Your VR Journey</a>
+      </div>
 
       <main>
-        <section>
+        <section id="about">
           <h2>About this site</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula metus in bibendum laoreet.
+          <p><span>Lorem ipsum dolor sit amet<span>, consectetur adipiscing elit. Suspendisse vehicula metus in bibendum laoreet.
             Aenean libero est, egestas eu eros pretium, sodales iaculis est.</p>
+
+          <figure>
+            <img src="img/vr-space.jpg" alt="user experiencing space in vr">
+            <figcaption>
+              Virtual reality users can explore faraway
+            places and feel as though they are right in the middle of the action.
+            </figcaption>
+          </figure>
         </section>
 
-        <section>
+        <section id="articles">
           <h2>Latest VR Articles</h2>
 
           <article>
@@ -42,7 +52,7 @@
             </header>
             <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Vivamus
             ultrices euismod turpis eget porta. Etiam nulla massa, pretium et massa nec, ornare dignissim nisi.</p>
-            <a href="articles/2018/article.html" target="_blank">Read More</a>
+            <a href="articles/2018/article.html#vr-article" target="_blank">Read More</a>
             <footer>Published: May 7, 2018</footer>
           </article>
 
@@ -53,26 +63,35 @@
             </header>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             ultrices euismod turpis eget porta. Etiam nulla massa, pretium et massa nec, ornare dignissim nisi.</p>
-            <a href="articles/2018/article.html" target="_blank">Read More</a>
+            <a href="articles/2018/article.html#vr-article" target="_blank">Read More</a>
             <footer>Published: May 10, 2018</footer>
           </article>
         </section>
 
-        <section>
+        <section id="contact">
           <h2>Contact</h2>
-          <p>Email us at coolvrexperience@gmail.com</p>
+          <p><strong>Email:</strong> <a href="mailto:coolvrexperience@gmail.com?subject=Hi%20There!">coolvrexperience@gmail.com</a></p>
+          <p><strong>Phone:</strong>555-123-4567</p>
+          <p><strong>Address:</strong></p>
+          <address>
+            Experience VR<br>
+            2018 Virtual Way<br>
+            Pico Rivera, CA 90660
+          </address>
         </section>
       </main>
 
       <aside>
         <h3>Top VR Resources</h3>
         <ol>
-
           <li><a href="#">Learn to create educational experiences in VR</a></li>
           <li><a href="#">Virtual Reality in Entertainment</a></li>
           <li><a href="#">Interact with buildings and products in VR</a></li>
           <li><a href="#">Use VR for teleconferencing and social media</a></li>
         </ol>
+
+        <hr>
+
         <blockquote>
           "Virtual reality was once the dream of science fiction. But the internet was
            also once a dream, and so were computers and smartphones. The future is coming." -
@@ -85,8 +104,9 @@
       </aside>
 
       <footer>
-        <p>&copy;2018 Experience VR, The Blog</p>
+        <p><small>&copy;2018 Experience VR, The Blog</small></p>
       </footer>
+      <a href="index.html">Back to Top</a>
     </div>
   </body>
 </html>
